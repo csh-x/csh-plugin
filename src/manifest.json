@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "csh-main",
+      "identifier": "csh-plugin.my-command-identifier",
+      "script": "./csh-main.js"
+    }
+  ],
+  "menu": {
+    "title": "csh-plugin",
+    "items": [
+      "csh-plugin.my-command-identifier"
+    ]
+  }
+}
